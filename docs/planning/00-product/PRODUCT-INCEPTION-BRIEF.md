@@ -1,12 +1,63 @@
 ---
+schema_version: 1.0.0
+id: workbench-doc-product-inception-brief
 title: Product Inception Brief
-project: AI Software workbench Workbench
-document_type: product-inception-brief
-status: draft
-version: 0.1.0
-created: 2026-05-10
-updated: 2026-05-10
-owner: Thomas Carter
+slug: product-inception-brief
+project:
+  name: Workbench
+  short_name: workbench
+  product_name: AI Software Engineering Workbench
+  repository_name: workbench
+document:
+  type: product-inception-brief
+  status: draft
+  version: 0.1.0
+  lifecycle_stage: planning
+  created: 2026-05-10
+  updated: 2026-05-10
+  owner: Thomas Carter
+  authors:
+    - Thomas Carter
+  reviewers: []
+  approvers: []
+  audience:
+    - maintainer
+    - contributor
+    - ai-assistant
+  confidentiality: internal
+  source_of_truth: true
+  canonical_path: docs/planning/00-product/PRODUCT-INCEPTION-BRIEF.md
+classification:
+  domain: product
+  subdomain: planning
+  tags: []
+relationships:
+  parent: null
+  supersedes: null
+  superseded_by: null
+  related: []
+traceability:
+  adr_refs: []
+  requirement_refs: []
+  epic_refs: []
+  work_packet_refs: []
+  issue_refs: []
+change_control:
+  change_policy: pull-request-reviewed
+  approval_required: false
+  review_cadence: as-needed
+ai:
+  ai_assisted: true
+  ai_usage_allowed: true
+  context_priority: medium
+  summary: One-sentence document summary for AI context assembly.
+verification:
+  required_checks:
+    - markdown-frontmatter-present
+    - yaml-frontmatter-valid
+    - canonical-path-matches-file-location
+  last_verified: null
+  verification_notes: null
 ---
 
 # Product Inception Brief
@@ -688,4 +739,3 @@ After creating this document, use the following atomic Conventional Commit:
 git add docs/planning/00-product/PRODUCT-INCEPTION-BRIEF.md
 git commit -m "docs(product): add product inception brief"
 ```
-
